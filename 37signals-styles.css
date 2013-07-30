@@ -1,0 +1,169 @@
+/* Resetting browser default styles */
+header, hgroup, nav, section, article, aside, footer, figure, figcaption, details, summary {
+  display: block;
+}
+
+html, body, figure, dt, dd, li, form, fieldset, legend, input, select, textarea, button {
+  padding: 0;
+  margin: 0 auto;
+}
+
+p, ul, ol, dl, table, blockquote {
+  padding: 0;
+  margin: 0 0 1.5em;
+}
+
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+fieldset {
+  border: 0;
+}
+/*<-End of resets*/
+
+body {
+  
+  font-family: 'Times New Roman';
+}
+
+#content {
+  width: 70%;
+  margin:  40px auto 0 auto;
+  
+ 
+}
+
+.main {
+	width: 800px;	
+	margin:  0 auto 0 auto;
+	text-align: center;
+	padding: 15px 0 0 0;
+}
+
+
+img {  
+   
+}
+
+#masthead {
+  width: 100%;    
+}
+
+
+#main-slogan {		
+	font-size: 50px;
+}
+
+#company-heading  h1{
+	margin: 5px 0 20px 0;	
+}
+
+#company-heading h3 {
+	font-size: 20px;	
+	font-weight: normal;
+	/*add more font size for firefox here */	
+}
+
+#greetings {
+	font-size: 11px;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	margin: 25px 0 0 60px;
+	color: rgba(128,128,128, 0.8);
+}
+
+#nav-main {
+	margin: 0 40px 0 0px;
+}
+#nav-main ul{
+	margin: -15px 25px;
+	list-style: none;
+	position: relative;
+	left: 700px;
+    /*float: right; */
+    /*white-space:nowrap;*/
+}
+
+#nav-main li{	
+	display: inline;
+	padding: 0 0 0 20px;
+}
+
+#nav-main a{	
+	font-size: 11px;
+	font-family: 'Lucida Grande', Verdana, sans-serif;
+	text-decoration: none;
+	color: #369;
+}
+
+.main-tasks  a{	
+	text-decoration: none;		
+}
+
+.tasks {
+	display: inline-block;
+	padding: 20px 0 10px 0;	
+	width: 180px;
+	border-radius: 5px;
+	margin: 0 30px 0 0;
+	/*background-color: rgba(0,0,0,.055);	*/
+	border: 1px solid #e8e8e8;
+	background: -moz-linear-gradient(top,  rgba(235,235,235,0) 0%, rgba(235,235,235,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,235,235,0)), color-stop(100%,rgba(235,235,235,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(235,235,235,0) 0%,rgba(235,235,235,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(235,235,235,0) 0%,rgba(235,235,235,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(235,235,235,0) 0%,rgba(235,235,235,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(235,235,235,0) 0%,rgba(235,235,235,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ebebeb', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
+}
+
+.main-tasks ul {
+	list-style: none;	
+	margin: 8px 0;
+}
+
+.main-tasks li {
+	font-family: sans-serif;	
+	padding: 0 0 12px 0;
+	height: 40%;	
+}
+
+.symb{
+	text-decoration: none;	
+	font-size: 8px;
+}
+
+.task-name {
+	font-size: 22px;
+	color: #369;
+	font-weight: bold;	
+}
+
+.task-name span {
+	text-decoration: underline;
+}
+
+.task-name sup {
+	text-decoration: none;
+}
+
+.task-title {
+	color: #cc0000;
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+.task-desc {
+	width: 80%;
+	color: #222;	
+	font-size: 14px;
+}
+
+hr {
+border: 0;
+margin: 60px 0;
+background: white url('images/img-hr.png') no-repeat scroll 50% 50%;
+color: transparent;
+height: 12px;
+}
