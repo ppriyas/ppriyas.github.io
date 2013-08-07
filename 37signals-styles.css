@@ -80,8 +80,8 @@ img {
 	margin: -15px 25px;
 	list-style: none;
 	position: relative;
-	left: 700px;
-    /*float: right; */
+	/*left: 700px;*/
+    float: right;
     /*white-space:nowrap;*/
 }
 

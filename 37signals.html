@@ -6,6 +6,8 @@
 		<meta name="keywords" content="37signals, small business, business tools, business, collaboration">
 		<meta name="description" content="A practice site created by Padma of the 37signals.com website">
 		<link type="text/css" rel="stylesheet" href="37signals-styles.css"/>
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/application.js"></script>
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js"></script>
 		<![endif]-->
@@ -43,7 +45,7 @@
 				<h3>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h3>				
 		      </div>
 			  <div class="main-tasks">				
-				<div class="tasks">
+				<div class="tasks" id="basecamp">
 				  <a href="http://basecamp.com/?source=37signals+home"  class="box hover_container hover_target" onclick="return sendOffsite(this, '/outbound/basecamp.com')">					
 					<img src="images/logo-bc.png" class="task-image" alt="Basecamp"/>
 					<ul class="task-block">
@@ -53,7 +55,7 @@
 					</ul>
 				  </a>
 				</div>				
-				<div class="tasks">
+				<div class="tasks" id="highrise">
 				  <a href="#">	
 					<img class="task-image" src="images/logo-hr.png" alt="Highrise"/>
 					<ul class="task-block">
@@ -63,7 +65,7 @@
 					</ul>
 				  </a>
 				</div>		
-				<div class="tasks">
+				<div class="tasks" id="campfire">
 				  <a href="#">
 				    <img class="task-image" src="images/logo-cf.png" alt="Campfire"/>
 					<ul class="task-block">
