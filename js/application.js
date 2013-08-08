@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#basecamp").hover(function () {
+	$(".tasks").hover(function () {
 		$("#main-slogan").css("font-size","45px");
 		$("h3").css("font-size","15px");
 		$("#main-slogan").text("Basecamp is the project management tool you wish you had on your last project."),
