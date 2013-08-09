@@ -56,11 +56,11 @@ img {
 	font-size: 50px;
 }
 
-#company-heading  h1{
+h1{
 	margin: 5px 0 20px 0;	
 }
 
-#company-heading h3 {
+h3 {
 	font-size: 20px;	
 	font-weight: normal;
 	/*add more font size for firefox here */	
