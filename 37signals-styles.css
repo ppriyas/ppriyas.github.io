@@ -52,7 +52,8 @@ img {
 }
 
 
-#main-slogan {		
+#company-heading h1
+{		
 	font-size: 50px;
 }
 
@@ -103,7 +104,7 @@ h3 {
 
 .tasks {
 	display: inline-block;
-	padding: 20px 0 10px 0;	
+	padding: 0 0 10px 0;	
 	width: 180px;
 	border-radius: 5px;
 	margin: 0 30px 0 0;
@@ -116,6 +117,43 @@ h3 {
 	background: -ms-linear-gradient(top,  rgba(235,235,235,0) 0%,rgba(235,235,235,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(235,235,235,0) 0%,rgba(235,235,235,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ebebeb', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
+}
+
+.tasks  a{
+	position: relative;
+	float: left;
+	padding: 20px 0 0 0;
+}
+
+.arrows {	
+	top: 145px;
+}
+
+.arrow-right {
+	position: absolute;
+	left: 500px;
+}
+
+.arrow-left {
+	position: absolute;
+	left: 200px;
+}
+
+.secondary-header {
+	position: relative;
+}
+
+.secondary-header  img{
+	position: absolute;
+
+}
+
+.secondary-header h1{
+	font-size: 45px;
+}
+
+.secondary-header h3{
+	font-size: 15px;
 }
 
 .main-tasks ul {

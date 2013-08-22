@@ -1,21 +1,20 @@
 $(document).ready(function() {
 	
-	$("#basecamp-mod").hide();
-	$("#highrise-mod").hide();
-	$("#campfire-mod").hide();
+	$(".secondary-header").hide();	
 	
 	$(".tasks").hover(function (event) {
-		$("h1").css("font-size","45px");
-		$("h3").css("font-size","15px");
+		//$("h1").css("font-size","45px");
+		//$("h3").css("font-size","15px");
 		
-		$("#company-heading").hide();				
-		$("#"+event.target.id + "-mod").show();
+		$("#company-heading").hide();	
+		var elem_id = $(this).attr("id");
+		$("#"+elem_id+"-mod").show();
+		$(".secondary-header img").addClass("arrows");
 		
 	  },
 	  function () {
-	   	$("#basecamp-mod").hide();
-		$("#highrise-mod").hide();
-		$("#campfire-mod").hide();
+	   var elem_id = $(this).attr("id");
+		$("#"+elem_id+"-mod").hide();
 		$("#company-heading").show();	
 	  }
 	);
