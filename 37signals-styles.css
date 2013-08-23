@@ -98,6 +98,10 @@ h3 {
 	color: #369;
 }
 
+.main-tasks {
+	/*margin:  0 auto 50px auto;*/
+}
+
 .main-tasks  a{	
 	text-decoration: none;		
 }
@@ -126,7 +130,7 @@ h3 {
 }
 
 .arrows {	
-	top: 145px;
+	top: 165px;
 }
 
 .arrow-right {
@@ -141,6 +145,7 @@ h3 {
 
 .secondary-header {
 	position: relative;
+	top: -25px;
 }
 
 .secondary-header  img{
@@ -148,12 +153,13 @@ h3 {
 
 }
 
-.secondary-header h1{
-	font-size: 45px;
+.secondary-header h2{
+	font-size: 40px;
 }
 
 .secondary-header h3{
 	font-size: 15px;
+	
 }
 
 .main-tasks ul {
