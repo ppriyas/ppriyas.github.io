@@ -51,6 +51,9 @@ img {
   width: 100%;    
 }
 
+#company-heading {
+	margin: 0 0 45px 0;
+}
 
 #company-heading h1
 {		
