@@ -1,10 +1,7 @@
 $(document).ready(function() {
 	
-	$(".secondary-header").hide();	
-	
+		
 	$(".tasks").hover(function (event) {
-		//$("h1").css("font-size","45px");
-		//$("h3").css("font-size","15px");
 		
 		$("#company-heading").hide();	
 		var elem_id = $(this).attr("id");
@@ -20,3 +17,4 @@ $(document).ready(function() {
 	);
 	
 });
+

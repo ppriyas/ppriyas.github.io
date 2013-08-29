@@ -147,6 +147,7 @@ h3 {
 }
 
 .secondary-header {
+	display: none;
 	position: relative;
 	top: -25px;
 }
